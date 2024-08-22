@@ -1,5 +1,5 @@
-@use "./variables" as * ;
-@use "./typography" as * ;
+
+
 
 @mixin tablet {
     @media (min-width: $tablet-breakpoint) {
@@ -11,4 +11,10 @@
     @media(min-width: $desktop-breakpoint) {
         @content;
     }
+}
+
+@mixin fontRegular {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+
 }
