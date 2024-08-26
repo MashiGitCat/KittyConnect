@@ -41,6 +41,7 @@ const Main = () => {
             </div>
           </div>
           <div className="card main__hero__image-container">
+            <h3 className="main__hero__carousel-heading "> Happy Tails: Kitties Finding Homes This Week</h3>
             <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">

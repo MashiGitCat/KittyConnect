@@ -51,23 +51,23 @@
       padding: 1rem 0 1rem 0;
     }
 
-    
-
-     &__image-container {
-     display:flex;
+    &__image-container {
+      display: flex;
       width: 100%;
       align-items: center;
-     }
+    }
+    &__carousel-heading {
+      text-align: center;
+      margin-top: 1rem !important;
+    }
 
     &__images {
-     
       background-size: cover;
       width: 320px;
       max-width: 320px;
       height: 320px;
-      margin:1rem;
+      margin: 1rem;
       border-radius: 0.5rem;
     }
   }
-  }
-
+}

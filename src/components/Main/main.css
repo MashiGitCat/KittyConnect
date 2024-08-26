@@ -72,6 +72,10 @@ body {
   width: 100%;
   align-items: center;
 }
+.main__hero__carousel-heading {
+  text-align: center;
+  margin-top: 1rem !important;
+}
 .main__hero__images {
   background-size: cover;
   width: 320px;
