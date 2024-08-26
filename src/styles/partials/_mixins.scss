@@ -1,25 +1,38 @@
-
-
-
 @mixin tablet {
-    @media (min-width: $tablet-breakpoint) {
-        @content;
-    }
+  @media (min-width: $tablet-breakpoint) {
+    @content;
+  }
 }
 
 @mixin desktop {
-    @media(min-width: $desktop-breakpoint) {
-        @content;
-    }
+  @media (min-width: $desktop-breakpoint) {
+    @content;
+  }
 }
 
 @mixin fontRegular {
-    font-family: "Roboto Slab", serif;
-    font-weight: 400;
-
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
 }
 
 @mixin fontBold {
-    font-family: "Roboto Slab", serif;
-    font-weight: 500;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+@mixin subfontRegular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+@mixin subfontBold {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin subfontThin {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }

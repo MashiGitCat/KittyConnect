@@ -10,6 +10,18 @@
   font-weight: 500;
   src: url("../../assets/fonts/RobotoSlab-Bold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../assets/fonts/Roboto-Light.ttf") format("truetype");
+}
 body {
   margin: 0;
 }
@@ -59,10 +71,15 @@ body {
 .main__hero__main-header-style {
   font-family: "Roboto Slab", serif;
   font-weight: 500;
+  color: #283132;
   line-height: 3.5rem;
 }
 .main__hero__sub-header-style {
   padding-bottom: 1rem;
+  color: #8EAEC4;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 .main__hero__button-container {
   padding: 1rem 0 1rem 0;
@@ -75,6 +92,10 @@ body {
 .main__hero__carousel-heading {
   text-align: center;
   margin-top: 1rem !important;
+  color: #283132;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 .main__hero__images {
   background-size: cover;
