@@ -18,3 +18,8 @@
     font-weight: 400;
 
 }
+
+@mixin fontBold {
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+}
