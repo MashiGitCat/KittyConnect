@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../assets/fonts/RobotoSlab-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+body {
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.navbar {
+  padding-top: 0;
+  margin-top: 0;
+}
+.navbar__logo {
+  background-image: url(https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_160,h_90,ar_16:9/v1724292835/kittyconnect-high-resolution-logo-transparent.png);
+  background-size: cover;
+  display: inline-block;
+  width: 160px;
+  height: 90px;
+}
+.navbar__logo:hover {
+  transform: scale(1.1);
+}
+.navbar__items {
+  background-color: #FFFFFF;
+  justify-content: space-around !important;
+}
+.navbar__links {
+  color: #283132;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.navbar__links:hover {
+  color: #8EAEC4;
+}
+.navbar__links--active {
+  color: #FF6841;
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../assets/fonts/RobotoSlab-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+body {
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.catlistings {
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+.catlistings__card-outer {
+  border-color: #FF6841;
+}
+.catlistings__card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.catlistings__image {
+  background-image: url("https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_720,h_405,ar_16:9/v1724789499/cat-string.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 145px;
+}
+.catlistings__card-text-container {
+  width: 100%;
+}
+.catlistings__card-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+.catlistings__card-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem;
+  color: #8EAEC4;
+}
+.catlistings__card-texts {
+  padding: 0.8rem;
+}/*# sourceMappingURL=catListings.css.map */

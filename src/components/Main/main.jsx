@@ -6,21 +6,6 @@ import "./main.css";
 const Main = () => {
   return (
     <div>
-      <header>
-        <nav className="navbar bg-body-tertiary main__navbar">
-          <section className="container-fluid main__navbar__items">
-            <a href="/" className="navbar-brand main__logo">
-            </a>
-            <ul className="nav">
-              <li className="nav-item">
-                <a href="/" className="main__navbar__links" aria-current="page">
-                  Cat listings
-                </a>
-              </li>
-            </ul>
-          </section>
-        </nav>
-      </header>
       <main className="main">
         <section className="main__hero">
           <div className="card  main__hero__text-container">
@@ -49,6 +34,7 @@ const Main = () => {
               id="heroCarousel"
               className="carousel slide"
               data-bs-ride="carousel"
+                data-bs-interval="7000"
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">

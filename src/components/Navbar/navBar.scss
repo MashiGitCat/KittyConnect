@@ -1,0 +1,39 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/resets" as *;
+
+.navbar {
+  padding-top: 0;
+  margin-top: 0;
+  &__logo {
+    background-image: url(https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_160,h_90,ar_16:9/v1724292835/kittyconnect-high-resolution-logo-transparent.png);
+    background-size: cover;
+    display: inline-block;
+    width: 160px;
+    height: 90px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__items {
+    background-color: $background;
+    justify-content: space-around !important;
+  }
+
+  &__links {
+    color: $primary;
+    text-decoration: none;
+    @include fontRegular;
+    text-transform: uppercase;
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  &__links--active {
+    color: $accent;
+  }
+}
