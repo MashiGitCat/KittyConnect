@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  
+  html,
+  body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }

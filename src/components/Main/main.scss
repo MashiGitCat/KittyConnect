@@ -5,7 +5,7 @@
 @use "../../styles/partials/resets" as *;
 
 .main {
-  padding: 1rem 1rem 1rem 1rem;
+
 
   &__logo {
     background-image: url(https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_160,h_90,ar_16:9/v1724292835/kittyconnect-high-resolution-logo-transparent.png);
@@ -58,6 +58,7 @@
       display: flex;
       width: 100%;
       align-items: center;
+      margin-bottom:2rem;
     }
     &__carousel-heading {
       text-align: center;

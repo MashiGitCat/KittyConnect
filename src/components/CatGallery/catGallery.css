@@ -22,34 +22,16 @@
   font-weight: 300;
   src: url("../../assets/fonts/Roboto-Light.ttf") format("truetype");
 }
-.navbar {
-  padding-top: 0;
-  margin-top: 0;
-}
-.navbar__logo {
-  background-image: url(https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_160,h_90,ar_16:9/v1724292835/kittyconnect-high-resolution-logo-transparent.png);
-  background-size: cover;
-  display: inline-block;
-  width: 160px;
-  height: 90px;
-}
-.navbar__logo:hover {
-  transform: scale(1.1);
-}
-.navbar__items {
-  background-color: #FFFFFF;
-  justify-content: space-around !important;
-}
-.navbar__links {
-  color: #283132;
-  text-decoration: none;
+.cats__names {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
-  text-transform: uppercase;
+  color: #283132;
+  margin-bottom: 0.5rem;
 }
-.navbar__links:hover {
-  color: #8EAEC4;
+.cats__details {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
 }
-.navbar__links--active {
-  color: #FF6841;
-}/*# sourceMappingURL=navBar.css.map */
+.cats__card-container {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=catGallery.css.map */

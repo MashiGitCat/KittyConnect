@@ -5,11 +5,10 @@
 @use "../../styles/partials/resets" as *;
 
 .catlistings {
-  padding: 1rem 1rem 1rem 1rem;
   display: flex;
   justify-content: center;
 
-  &__card-outer{
+  &__card-outer {
     border-color: $accent;
   }
 
@@ -20,7 +19,7 @@
   }
 
   &__image {
-    background-image: url("https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_720,h_405,ar_16:9/v1724789499/cat-string.jpg");
+    background-image: url("https://res.cloudinary.com/maheshidevelopments/image/upload/c_pad,w_768,h_432,ar_16:9/v1724789499/cat-string.jpg");
     background-size: cover;
 
     width: 100%;
@@ -31,17 +30,17 @@
     width: 100%;
   }
 
-  &__card-title{
+  &__card-title {
     @include fontBold;
   }
 
-  &__card-text{
+  &__card-text {
     @include subfontThin;
-    line-height:  2rem;
-    color:$secondary;
+    line-height: 2rem;
+    color: $secondary;
   }
 
-  &__card-texts{
-    padding:0.8rem ;
+  &__card-texts {
+    padding: 0.8rem;
   }
 }

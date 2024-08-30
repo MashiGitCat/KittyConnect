@@ -1,8 +1,10 @@
 import React from 'react';
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './components/Main/main';
 import Navbar from './components/Navbar/navBar';
-import CatListings from './components/CatListings/catListings';
+
+import CatListingsPage from "./pages/catListingsPage"
 
 const App = () => {
   return (
@@ -13,7 +15,7 @@ const App = () => {
       <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/catlistings" element={<CatListings />} />
+          <Route path="/catlistingspage" element={<CatListingsPage />} />
         </Routes>
       </Router>
     </>

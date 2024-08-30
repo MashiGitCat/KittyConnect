@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./main.css";
 
 const Main = () => {
+  
   return (
     <div>
       <main className="main">
@@ -34,7 +35,7 @@ const Main = () => {
               id="heroCarousel"
               className="carousel slide"
               data-bs-ride="carousel"
-                data-bs-interval="7000"
+              data-bs-interval="7000"
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">

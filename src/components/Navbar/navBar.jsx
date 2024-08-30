@@ -12,7 +12,7 @@ const Navbar = () => {
             <ul className="nav">
               <li className="nav-item">
                 <NavLink
-                  to="/catlistings"
+                  to="/catlistingspage"
                   className={({ isActive }) =>
                     isActive
                       ? "navbar__links link-underline-light navbar__links--active"
