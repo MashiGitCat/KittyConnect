@@ -34,4 +34,11 @@
 }
 .cats__card-container {
   margin-bottom: 2rem;
+}
+.cats__image {
+  height: 200px;
+  max-height: 432px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 16/9;
 }/*# sourceMappingURL=catGallery.css.map */

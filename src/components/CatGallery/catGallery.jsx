@@ -7,12 +7,26 @@ const CatGallery = ({ cats }) => {
       {cats.map((cat) => (
         <div className="col" key={cat.id}>
           <div className="card cats__card-container">
-            <img src={cat.image_url} className="card-img-top catgallery__cat-image" alt={cat.name} />
+            <img
+              src={cat.image_url}
+              className="card-img-top cats cats__image"
+              alt={cat.name}
+            />
             <div className="card-body">
               <h5 className="card-title cats__names">{cat.name}</h5>
               <p className="card-text cats__details">Breed: {cat.breed}</p>
               <p className="card-text cats__details">Age: {cat.age} years</p>
-              <p className="card-text cats__details">Status: {cat.status}</p>
+              <div>
+                {cat.status === "Available" ? (
+                  <span className="badge rounded-pill text-bg-success  cats__details">
+                    Available
+                  </span>
+                ) : (
+                  <span className="badge rounded-pill text-bg-danger cats__details">
+                    Adopted
+                  </span>
+                )}
+              </div>
             </div>
           </div>
         </div>

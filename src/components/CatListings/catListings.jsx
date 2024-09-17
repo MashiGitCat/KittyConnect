@@ -10,11 +10,8 @@ const CatListings = () => {
       >
         <div className="row g-0">
           <div className="catlistings__card-container">
-            
-              {" "}
-              <div className="col-md-4 catlistings__image img-fluid"></div>
-           
-
+            {" "}
+            <div className="col-md-4 catlistings__image img-fluid"></div>
             <div className="col-md-8 catlistings__card-text-container">
               <div className="catlistings__card-texts">
                 <h2 className="card-title catlistings__card-title">

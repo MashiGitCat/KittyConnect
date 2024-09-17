@@ -4,7 +4,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./main.css";
 
 const Main = () => {
-  
   return (
     <div>
       <main className="main">
